@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 const Cart = () => {
     const cartItems = useSelector((state) => state.cart.cartItems);
   return (
-    <div className="px-30 py-10" >
+    <div className="px-4 py-4 md:px-30 md:py-10" >
       <h2 className="text-2xl font-semibold mt-10">Cart</h2>
       {cartItems.length === 0 ? (
         <p className="mt-4">Your cart is empty</p>

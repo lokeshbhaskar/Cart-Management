@@ -1,1 +1,8 @@
 @import "tailwindcss";
+.custom-toast {
+    @apply max-w-[90vw] sm:max-w-sm rounded-md font-bold shadow-md bg-gray-800 text-white;
+  }
+  
+  .custom-toast-body {
+    @apply text-sm px-3 py-2;
+  }
